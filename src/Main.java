@@ -10,7 +10,6 @@ public class Main {
             new Thread(() -> {
                 int numberOfTurns = 0;
                 String route = generateRoute("RLRFR", 100);
-                System.out.println(route);
                 for (int j = 0; j<route.length(); j++) {
                     if (route.charAt(j) == 'R') numberOfTurns++;
                 }
